@@ -1,0 +1,57 @@
+.navbar{
+    background-color: #151719;
+}
+
+.bg70{
+    background-image: url("/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+
+.backdrop {
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.brand {
+    object-fit: fill;
+    width: 35vw;
+    height: auto;
+    align-self: center;
+    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.9));
+  }
+
+.texto {
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.check {
+    position: absolute;
+    left: 0%;
+    right: 93.04%;
+    top: 33.33%;
+    bottom: 33.38%;
+    background: #48BB78;
+}
+
+.icon {
+    height: 96px;
+    width: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .brand{
+      width: 85vw;
+    }
+  }
+  
