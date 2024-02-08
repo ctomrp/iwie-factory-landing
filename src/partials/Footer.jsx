@@ -14,9 +14,9 @@ function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <a href="#header" className="inline-block" aria-label="Cruip">
+                <Link to="/" className="inline-block" aria-label="Cruip">
                   <img className={`${s.icon}`} src={icon} alt='logo'></img>
-                </a>
+                </Link>
               </div>
               <div className="text-gray-400">
               En Iwie Factory nos especializamos en la mantención, reparación y 
@@ -60,12 +60,11 @@ function Footer() {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <Link
-                      to="/services"
+                <div
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       <h6 className="text-gray-200 font-medium mb-1">Recursos</h6>
-                    </Link>
+                    </div>
                 <ul>
                   <li className="mb-1">
                     <Link
@@ -89,12 +88,11 @@ function Footer() {
 
               {/* 4th block */}
               <div className="text-sm">
-                <Link
-                      to="/about"
+                <div
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       <h6 className="text-gray-200 font-medium mb-1">Contáctanos</h6>
-                    </Link>
+                    </div>
                 <ul>
                   <li className="mb-1">
                     <Link

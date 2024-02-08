@@ -48,7 +48,8 @@ function Target() {
                     <p className="text-lg text-gray-400 mb-2">
                       Confía en nosotros para mantener tus drones siempre en óptimas condiciones.
                     </p>
-                    <div className='flex justify-evenly mb-2'>
+                    <div className='max-sm:flex-col flex'>
+                    <div className='flex-col justify-evenly mb-2'>
                       <p className='flex text-gray-400'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-check" viewBox="0 0 16 16">
                       <path fill='#48BB78' d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
@@ -57,20 +58,21 @@ function Target() {
                       <p className='flex text-gray-400'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-check" viewBox="0 0 16 16">
                       <path fill='#48BB78' d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
-                    </svg>&nbsp;Personal Experto
+                    </svg>&nbsp;Diagnóstico Express
                       </p>
                     </div>
-                    <div className='flex justify-evenly mb-2'>
+                    <div className='flex-col justify-evenly mb-2'>
                       <p className='flex text-gray-400'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-check" viewBox="0 0 16 16">
                       <path fill='#48BB78' d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
-                    </svg>&nbsp;Diagnóstico Express
+                    </svg>&nbsp;Personal Experto
                       </p>
                       <p className='flex text-gray-400'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-check" viewBox="0 0 16 16">
                       <path fill='#48BB78' d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
                     </svg>&nbsp;Siempre a la Vanguardia
                       </p>
+                    </div>
                     </div>
                   </div>
                   
