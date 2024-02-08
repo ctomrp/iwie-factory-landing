@@ -103,15 +103,7 @@ function Header() {
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
                   <Link
-                    to="/about"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
-                  >
-                    Sobre nosotros
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/servicios"
+                    to="/"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Servicios
